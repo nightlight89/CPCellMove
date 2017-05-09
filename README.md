@@ -1,5 +1,5 @@
 # CPCellMove
-cell 移动
+cell 移动-------觉得有用麻烦右上角给个星
 
 /**将外部数据源数组传入，以便在移动cell数据发生改变时进行修改重排*/
 - (NSArray *)originalArrayDataForTableView:(CPMoveCellTableView *)tableView;
