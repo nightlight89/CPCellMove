@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A435D9C1EC2063B00CACE54 /* CPMoveCellTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A435D9B1EC2063B00CACE54 /* CPMoveCellTableView.m */; };
 		6AE0097B1EC0A34F001E41AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE0097A1EC0A34F001E41AB /* main.m */; };
 		6AE0097E1EC0A34F001E41AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE0097D1EC0A34F001E41AB /* AppDelegate.m */; };
 		6AE009811EC0A34F001E41AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE009801EC0A34F001E41AB /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A435D9A1EC2063B00CACE54 /* CPMoveCellTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPMoveCellTableView.h; sourceTree = "<group>"; };
+		6A435D9B1EC2063B00CACE54 /* CPMoveCellTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPMoveCellTableView.m; sourceTree = "<group>"; };
 		6AE009761EC0A34F001E41AB /* CPCellMove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPCellMove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AE0097A1EC0A34F001E41AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6AE0097C1EC0A34F001E41AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,6 +106,8 @@
 			children = (
 				6AE0097C1EC0A34F001E41AB /* AppDelegate.h */,
 				6AE0097D1EC0A34F001E41AB /* AppDelegate.m */,
+				6A435D9A1EC2063B00CACE54 /* CPMoveCellTableView.h */,
+				6A435D9B1EC2063B00CACE54 /* CPMoveCellTableView.m */,
 				6AE0097F1EC0A34F001E41AB /* ViewController.h */,
 				6AE009801EC0A34F001E41AB /* ViewController.m */,
 				6AE009821EC0A34F001E41AB /* Main.storyboard */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AE009811EC0A34F001E41AB /* ViewController.m in Sources */,
+				6A435D9C1EC2063B00CACE54 /* CPMoveCellTableView.m in Sources */,
 				6AE0097E1EC0A34F001E41AB /* AppDelegate.m in Sources */,
 				6AE0097B1EC0A34F001E41AB /* main.m in Sources */,
 			);
@@ -509,6 +515,7 @@
 				6AE009A51EC0A34F001E41AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6AE009A61EC0A34F001E41AB /* Build configuration list for PBXNativeTarget "CPCellMoveTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +524,7 @@
 				6AE009A81EC0A34F001E41AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6AE009A91EC0A34F001E41AB /* Build configuration list for PBXNativeTarget "CPCellMoveUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +533,7 @@
 				6AE009AB1EC0A34F001E41AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
